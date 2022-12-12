@@ -11,10 +11,10 @@ Documentation and explanation were prioritized to make this as approachable as p
 
 # Getting Started
 
-Use the following line to install all requirements.
+1) Use the following line to install all requirements.
 
-pip install -r requirements.txt
+## pip install -r requirements.txt
 
-Execute main.py
+2) Execute main.py
 
-
+3) Enjoy :)
