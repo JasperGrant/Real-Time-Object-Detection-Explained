@@ -13,7 +13,9 @@ Documentation and explanation were prioritized to make this as approachable as p
 
 1) Use the following line to install all requirements.
 
-''' pip install -r requirements.txt '''
+```
+pip install -r requirements.txt
+'''
 
 2) Execute main.py
 
