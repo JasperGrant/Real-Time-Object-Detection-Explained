@@ -28,7 +28,7 @@ class RealTimeCameraObjectDetection:
     def score_frame(self, frame):
         # "Move" model to chosen device (cuda or cpu)
         self.model.to(self.device)
-        # Change np array to python list (I do not like this syntax because it is impossible to google)
+        # Puts np array into python list (I do not like this syntax because it is impossible to google)
         frame = [frame]
         # Results are received from frame run through model
         results = self.model(frame)
@@ -92,7 +92,7 @@ class RealTimeCameraObjectDetection:
             # Perform FPS calculation
             fps = int(1 / (end_time - start_time))
             # Create variable for FPS counter position
-            fps_position = (525, 25)
+            fps_position = (525, 25) #These may have to be changed based on resolution of output video
             # Insert FPS into output video
             cv2.putText(
                 frame, f"FPS: {fps}", fps_position, cv2.FONT_HERSHEY_SIMPLEX, self.font_scale,
