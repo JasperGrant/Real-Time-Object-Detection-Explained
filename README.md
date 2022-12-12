@@ -7,7 +7,7 @@ TL:DR Python program takes webcam feed and outputs feed with detected objects ma
 
 This repo intends to make a more easily understood example of real time object detection using Pytorch and OpenCV2.
 
-Documentation and explanation was prioritized to make this as approachable as possible to new programmers.
+Documentation and explanation were prioritized to make this as approachable as possible to new programmers.
 
 # Getting Started
 
