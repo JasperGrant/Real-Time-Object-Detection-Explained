@@ -15,7 +15,7 @@ Documentation and explanation were prioritized to make this as approachable as p
 
 ```
 pip install -r requirements.txt
-'''
+```
 
 2) Execute main.py
 
